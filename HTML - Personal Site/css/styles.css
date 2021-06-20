@@ -6,10 +6,16 @@ body{
     font-size: 20px;
 }
 
-.top-display{
+.brown-display{
     background-color: #4d3e3e;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.h3-light{
+    color: #ffc38b;
+    font-size: 35px;
+    margin: 60px auto 40px auto;
 }
 
 .brag{
@@ -17,27 +23,22 @@ body{
     margin-bottom: 80px;
 }
 
-.brands{
-    background-color: #4d3e3e;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 h1{
-    margin-top: 0px;
+    margin: 0px auto 0px auto;
     color: #ff926b;
-    font-size: 110px;
+    font-size: 100px;
 }
 
 h3{
-    color: #ffc38b;
+    color: #4d3e3e;
     font-size: 35px;
+    margin: 70px auto 70px auto;
 }
 
 p{
     color:#4d3e3e;
     width: 600px;
-    margin: auto;
+    margin: 30px auto 30px auto;
 }
 
 table{
@@ -58,12 +59,6 @@ table{
     width: 40%;
     float: left;
     margin-right: 30px;
-}
-
-.contact{
-    background-color: #4d3e3e;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 hr{
@@ -122,4 +117,17 @@ hr{
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+ }
+
+ ul{
+    display: inline-block;
+    text-align:left;
+ }
+
+ .orange-p{
+    color:#FF926B;
+ }
+
+ .brown-p{
+    color: #4d3e3e;
  }
