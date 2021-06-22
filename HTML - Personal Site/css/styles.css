@@ -1,4 +1,5 @@
 body{
+    color: #4d3e3e;
     background-color: #fff3cd;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,21 +7,15 @@ body{
     font-size: 20px;
 }
 
-.brown-display{
-    background-color: #4d3e3e;
+div{
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.h3-light{
-    color: #ffc38b;
-    font-size: 35px;
-    margin: 60px auto 40px auto;
-}
-
-.brag{
-    margin-top: 80px;
-    margin-bottom: 80px;
+.brown-div{
+    background-color: #4d3e3e;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 h1{
@@ -35,10 +30,26 @@ h3{
     margin: 70px auto 70px auto;
 }
 
+.h3-light{
+    color: #ffc38b;
+    font-size: 35px;
+    margin: 60px auto 40px auto;
+}
+
+.h3-coral{
+    color: #ff926b;
+    font-size: 35px;
+    margin: 60px auto 40px auto;
+}
+
 p{
     color:#4d3e3e;
     width: 600px;
     margin: 30px auto 30px auto;
+}
+
+.p-coral{
+    color:#FF926B;
 }
 
 table{
@@ -46,7 +57,14 @@ table{
     margin: 60px auto 60px auto;
 }
 
-.wonton{
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+.wonton-div{
     width: 50%;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -54,7 +72,7 @@ table{
     text-align: left;
 }
 
-.wonton-soup{
+.wonton-soup-picture{
     padding-right: 30px;
     width: 40%;
     float: left;
@@ -70,7 +88,7 @@ hr{
     margin: 80px auto 80px auto;
 }
 
-.hr-2{
+.hr-light{
     border-color:#ffc38b;
     border-style: none;
     border-top-style: dotted;
@@ -103,9 +121,9 @@ hr{
     cursor: pointer;
     text-align: center;
     margin: 30px;
- }
+}
  
- .BUTTON_AVV:hover {
+.BUTTON_AVV:hover {
     border: solid #FFC38B 1px;
     background: #FFC38B;
     background-image: -webkit-linear-gradient(top, #FFC38B, #FFC38B);
@@ -117,17 +135,96 @@ hr{
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
- }
+}
 
- ul{
+ul{
     display: inline-block;
     text-align:left;
- }
+}
 
- .orange-p{
-    color:#FF926B;
- }
+#container {
+        
+    max-width: 300px;
 
- .brown-p{
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+
+    /* Add empty space above the container (20% of the view height) */
+    margin-top: 20vh;
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+#container {
+    
+    max-width: 300px;
+
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+
+    /* Add empty space above the container */
+    margin-top: 10vh;
+}
+
+.card {
+    background-color: #fff3cd;
+    border: 5px solid #FF926B;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.card__details {
+/* Add space around the details */
+    padding: 16px 8px 8px 8px;
+}
+
+.rating {
+    padding: 4px 8px;
+    border: 1px solid #FF926B;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+/* Style div elements that have class equal to name */
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.p-card {
+    font-size: 14px;
     color: #4d3e3e;
- }
+    line-height: 150%;
+}
+
+/* Style button element */
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #fff3cd;
+    background-color: #FF926B;
+
+/* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    margin: 0 auto;
+    display: block;
+
+/* Button is a clickable element, therefore it should have a pointer cursor */
+    cursor: pointer;   
+}
+
+  /* Add style when button is focused or hovered */
+button:focus,
+button:hover {
+  background-color: #FF926B;
+  color: #4d3e3e;
+}
