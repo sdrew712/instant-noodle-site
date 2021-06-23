@@ -7,7 +7,7 @@ body{
     font-size: 20px;
 }
 
-div{
+.light-div{
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -78,7 +78,7 @@ hr{
     border-top-style: dotted;
     border-width: 10px;
     width: 4%;
-    margin: 80px auto 80px auto;
+    margin: 40px auto 40px auto;
 }
 
 .hr-light{
@@ -185,16 +185,17 @@ ul{
   }
 
 /* Style div elements that have class equal to name */
-.name {
+.noodle-name {
     font-size: 24px;
     font-weight: 600;
     margin-top: 16px;
 }
 
-.p-card {
+.card-description {
     font-size: 14px;
     color: #4d3e3e;
     line-height: 150%;
+    width: 200px;
 }
 
 /* Style button element */
