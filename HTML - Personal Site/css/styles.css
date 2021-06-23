@@ -199,7 +199,7 @@ ul{
 }
 
 /* Style button element */
-button {
+.read-more {
     border: none;
     padding: 12px 24px;
     border-radius: 50px;
@@ -221,4 +221,9 @@ button:focus,
 button:hover {
   background-color: #FF926B;
   color: #4d3e3e;
+}
+
+.noodle-pic{
+    height: 50%;
+    width: 50%;
 }
